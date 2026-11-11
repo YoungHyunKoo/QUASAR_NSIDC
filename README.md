@@ -15,8 +15,12 @@ QUASAR workflow pipeline for NSIDC
   ```
   
 - Code 4: Compare AMSR2 sea ice concentration with high-resolution ice concentration from MODIS and Sentinel-1 (pixel-wise SIC comparison)
+  **Sentinel-1 comparison**
   ```
   python C4_S1_AMSR_compare.py 20200101 20200131
+  ```
+  **MODIS comparison**
+  ```
   python C4_MODIS_AMSR_compare.py 20200101 20200131
   ```
   
