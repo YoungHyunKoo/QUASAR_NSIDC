@@ -1,0 +1,16 @@
+dir_amsr: "/scratch/alpine/yoko2261/AMSR"
+dir_swsic: "/scratch/alpine/yoko2261/SIC_swath/AMSR_SIC_netcdf"
+dir_dasic: "/scratch/alpine/yoko2261/SIC_swath/AMSR_SIC_netcdf"
+dir_tb: "/scratch/alpine/yoko2261/SIC_swath/AMSR_TB_netcdf"
+dir_anc: "/scratch/alpine/yoko2261/SIC_swath/amsr3_ancillary"
+dir_modis: "/scratch/alpine/yoko2261/gws-access.jasmin.ac.uk/public/genaice/modis_ice_2021/uint8_land"
+dir_s1: "/scratch/alpine/yoko2261/gws-access.jasmin.ac.uk/public/quasar/deice/"
+
+gridid: "grid_25km"
+
+dir_fig: "/projects/yoko2261/amsr_compare/gridid/figure"
+dir_out: "/projects/yoko2261/amsr_compare/gridid/output"
+times_date0: "2020-04-01"
+times_date1: "2021-04-01"
+crs: 'EPSG:3031'
+
