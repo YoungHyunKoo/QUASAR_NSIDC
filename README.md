@@ -19,6 +19,7 @@ QUASAR workflow pipeline for NSIDC
   ```
   python C4_S1_AMSR_compare.py 20200101 20200131
   ```
+  
   **MODIS comparison**
   ```
   python C4_MODIS_AMSR_compare.py 20200101 20200131
