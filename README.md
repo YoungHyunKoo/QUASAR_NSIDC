@@ -4,6 +4,7 @@ QUASAR workflow pipeline for NSIDC
   ```
   python C1_download_AMSR.py 20200101 20200131
   ```
+  
 - Code 2: Reproject AMSR2 L1R files (in input directory) onto a polar stereographic grid (output saved in output directory)
   ```
   python C2_convert_grid.py --input-dir /data/amsr2 --output-dir /data/gridded --hemisphere north --datefirst 20200101 --datelast 20200131
@@ -15,6 +16,7 @@ QUASAR workflow pipeline for NSIDC
   ```
   
 - Code 4: Compare AMSR2 sea ice concentration with high-resolution ice concentration from MODIS and Sentinel-1 (pixel-wise SIC comparison)
+  
   **Sentinel-1 comparison**
   ```
   python C4_S1_AMSR_compare.py 20200101 20200131
